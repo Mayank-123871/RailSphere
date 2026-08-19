@@ -1,0 +1,20 @@
+{
+    "model_version": "1.0.0",
+    "model_name": "Train Delay Prediction Model",
+    "algorithm": "Random Forest Regressor",
+    "training_timestamp": "2026-08-19T15:59:34.053427",
+    "dataset_records": 20,
+    "training_records": 16,
+    "testing_records": 4,
+    "features": [
+        "train_no",
+        "station_code",
+        "reason"
+    ],
+    "target": "delay_minutes",
+    "metrics": {
+        "mae_minutes": 2.1358,
+        "rmse_minutes": 2.6111,
+        "r2_score": 0.8848
+    }
+}
