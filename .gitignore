@@ -1,4 +1,4 @@
-# Environment
+﻿# Environment
 .env
 .env.*
 !.env.example
@@ -7,28 +7,30 @@
 venv/
 .venv/
 
-# Python cache
+# Python Cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Pytest Cache
+.pytest_cache/
 
 # Logs
 *.log
 
-# Backup files
+# Backup Files
 *_backup.py
 *backup*.py
 app_before_*.py
 app_working_backup.py
 
-# ML generated model files
+# Generated ML Model Files
 *.pkl
 
 # IDE
 .vscode/
 .idea/
 
-# OS files
+# OS Files
 .DS_Store
 Thumbs.db
